@@ -37,3 +37,7 @@ gfx/pokemon/*/frames.asm
 *.sn*
 *.sa*
 *.sg1
+
+# R related
+.Rproj.user
+
