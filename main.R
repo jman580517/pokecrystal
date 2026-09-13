@@ -112,10 +112,10 @@ maps_order <- wild_maps_data %>%
 
 #### Duplicate Pokemon in Maps ----
 wild_maps_duplicates <- wild_maps_data %>%
-  left_join(maps_order %>% select(map, map_order), by = c("map")) %>%
+  left_join(maps_order %>% select(fname, map, map_order), by = c("fname", "map")) %>%
   left_join(pokemon_data_combined %>% select(pokemon, type), by = c("pokemon")) %>%
-  arrange(map_order, map, pokemon, original_order, desc(lvl)) %>%
-  group_by(map, pokemon) %>%
+  arrange(map_order, fname, map, pokemon, original_order, desc(lvl)) %>%
+  group_by(fname, map, pokemon) %>%
   mutate(map_pokemon_order = row_number()) %>%
   arrange(map_order, original_order)
 wild_maps_duplicates %>% cb()
