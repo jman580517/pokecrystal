@@ -19,14 +19,14 @@ KantoWaterWildMons:
 	def_water_wildmons ROUTE_4
 	db 4 percent ; encounter rate
 	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 5, SQUIRTLE
 	db 10, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_6
 	db 2 percent ; encounter rate
 	db 10, PSYDUCK
-	db 5, PSYDUCK
+	db 5, SQUIRTLE
 	db 10, GOLDUCK
 	end_water_wildmons
 
@@ -82,21 +82,21 @@ KantoWaterWildMons:
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
 	db 10, POLIWAG
-	db 5, POLIWAG
+	db 5, SQUIRTLE
 	db 10, POLIWHIRL
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_24
 	db 4 percent ; encounter rate
 	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 5, SQUIRTLE
 	db 10, SEAKING
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_25
 	db 4 percent ; encounter rate
 	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 5, SQUIRTLE
 	db 10, SEAKING
 	end_water_wildmons
 
@@ -138,7 +138,7 @@ KantoWaterWildMons:
 	def_water_wildmons CERULEAN_CITY
 	db 4 percent ; encounter rate
 	db 10, GOLDEEN
-	db 5, GOLDEEN
+	db 5, SQUIRTLE
 	db 10, SEAKING
 	end_water_wildmons
 

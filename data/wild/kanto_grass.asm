@@ -6,25 +6,25 @@ KantoGrassWildMons:
 	db 4 percent, 2 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, DIGLETT
-	db 6, DIGLETT
+	db 6, CHARMANDER
 	db 12, DIGLETT
-	db 24, DIGLETT
+	db 24, CHARMANDER
 	db 24, DUGTRIO
 	db 24, DUGTRIO
 	db 24, DUGTRIO
 	; day
 	db 2, DIGLETT
-	db 4, DIGLETT
+	db 4, CHARMANDER
 	db 8, DIGLETT
-	db 16, DIGLETT
+	db 16, CHARMANDER
 	db 16, DUGTRIO
 	db 16, DUGTRIO
 	db 16, DUGTRIO
 	; nite
 	db 4, DIGLETT
-	db 8, DIGLETT
+	db 8, CHARMANDER
 	db 16, DIGLETT
-	db 32, DIGLETT
+	db 32, CHARMANDER
 	db 32, DUGTRIO
 	db 32, DUGTRIO
 	db 32, DUGTRIO
@@ -176,26 +176,26 @@ KantoGrassWildMons:
 	db 2, PIDGEY
 	db 2, RATTATA
 	db 3, SENTRET
-	db 3, PIDGEY
+	db 3, CHARMANDER
 	db 6, FURRET
-	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, BULBASAUR
+	db 4, BULBASAUR
 	; day
 	db 2, PIDGEY
 	db 2, RATTATA
 	db 3, SENTRET
-	db 3, PIDGEY
+	db 3, CHARMANDER
 	db 6, FURRET
-	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, BULBASAUR
+	db 4, BULBASAUR
 	; nite
 	db 2, HOOTHOOT
 	db 2, RATTATA
 	db 3, RATTATA
-	db 3, HOOTHOOT
+	db 3, CHARMANDER
 	db 6, RATICATE
-	db 4, HOOTHOOT
-	db 4, HOOTHOOT
+	db 4, BULBASAUR
+	db 4, BULBASAUR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_2
@@ -230,7 +230,7 @@ KantoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 5, SPEAROW
-	db 5, RATTATA
+	db 5, SQUIRTLE
 	db 8, EKANS
 	db 10, RATICATE
 	db 10, ARBOK
@@ -238,7 +238,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	; day
 	db 5, SPEAROW
-	db 5, RATTATA
+	db 5, SQUIRTLE
 	db 8, EKANS
 	db 10, RATICATE
 	db 10, ARBOK
@@ -246,7 +246,7 @@ KantoGrassWildMons:
 	db 10, SANDSHREW
 	; nite
 	db 5, RATTATA
-	db 10, RATTATA
+	db 10, SQUIRTLE
 	db 10, RATICATE
 	db 6, ZUBAT
 	db 5, RATTATA
@@ -431,7 +431,7 @@ KantoGrassWildMons:
 	db 15, FEAROW
 	db 15, MAROWAK
 	db 16, ELECTABUZZ
-	db 16, ELECTABUZZ
+	db 16, ZAPDOS
 	; day
 	db 15, SPEAROW
 	db 17, VOLTORB
@@ -439,7 +439,7 @@ KantoGrassWildMons:
 	db 15, FEAROW
 	db 15, MAROWAK
 	db 18, ELECTABUZZ
-	db 18, ELECTABUZZ
+	db 18, ZAPDOS
 	; nite
 	db 15, VENONAT
 	db 17, VOLTORB
@@ -447,7 +447,7 @@ KantoGrassWildMons:
 	db 15, VENOMOTH
 	db 15, ZUBAT
 	db 16, ELECTABUZZ
-	db 16, ELECTABUZZ
+	db 16, ZAPDOS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_11
@@ -654,24 +654,24 @@ KantoGrassWildMons:
 	db 35, TANGELA
 	db 20, RATICATE
 	db 30, MR__MIME
-	db 28, MR__MIME
-	db 28, MR__MIME
+	db 28, MOLTRES
+	db 28, ZAPDOS
 	; day
 	db 30, TANGELA
 	db 25, RATTATA
 	db 35, TANGELA
 	db 20, RATICATE
 	db 28, MR__MIME
-	db 30, MR__MIME
-	db 30, MR__MIME
+	db 30, MOLTRES
+	db 30, ZAPDOS
 	; nite
 	db 30, TANGELA
 	db 25, RATTATA
 	db 35, TANGELA
 	db 20, RATICATE
 	db 30, TANGELA
-	db 28, TANGELA
-	db 28, TANGELA
+	db 28, MOLTRES
+	db 28, ZAPDOS
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_22

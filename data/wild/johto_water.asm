@@ -13,14 +13,14 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 15, WOOPER
 	db 20, QUAGSIRE
-	db 15, QUAGSIRE
+	db 15, POLITOED
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F
 	db 2 percent ; encounter rate
 	db 15, WOOPER
 	db 20, QUAGSIRE
-	db 15, QUAGSIRE
+	db 15, POLITOED
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
@@ -131,7 +131,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_30
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
-	db 15, POLIWAG
+	db 15, LAPRAS
 	db 20, POLIWHIRL
 	end_water_wildmons
 
@@ -159,7 +159,7 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_35
 	db 4 percent ; encounter rate
 	db 20, PSYDUCK
-	db 15, PSYDUCK
+	db 15, LAPRAS
 	db 20, GOLDUCK
 	end_water_wildmons
 
@@ -187,8 +187,8 @@ JohtoWaterWildMons:
 	def_water_wildmons ROUTE_43
 	db 2 percent ; encounter rate
 	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 10, MAGIKARP
+	db 15, TOTODILE
+	db 10, TOTODILE
 	end_water_wildmons
 
 	def_water_wildmons ROUTE_44
