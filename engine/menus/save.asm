@@ -227,7 +227,7 @@ SavedTheGame:
 	call PrintText
 	pop hl
 	res NO_TEXT_SCROLL, [hl]
-	call SavedTheGame
+ 	call SaveGameData
 	; copy the original text speed setting to the stack
 	ld a, [wOptions]
 	push af
@@ -332,7 +332,7 @@ SavingDontTurnOffThePower:
 	ld a, TEXT_DELAY_MED
 	ld [wOptions], a
 	; SAVING... DON'T TURN OFF THE POWER.
-	ld hl, SavingDontTurnOffThePowerText
+	;ld hl, SavingDontTurnOffThePowerText
 	call PrintText
 	; Restore the text speed setting
 	pop af
