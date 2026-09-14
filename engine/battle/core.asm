@@ -7079,7 +7079,7 @@ GiveExperiencePoints:
 	ld a, [wEnemyMonLevel]
 	ldh [hMultiplier], a
 	call Multiply
-	ld a, 7
+	ld a, 2 ; 7
 	ldh [hDivisor], a
 	ld b, 4
 	call Divide
